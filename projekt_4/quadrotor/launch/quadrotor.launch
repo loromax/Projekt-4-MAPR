@@ -1,0 +1,10 @@
+<launch>
+      
+  <!-- Upload quadrotor URDF to ros parameter server for rviz to find  --> 
+  <param name="quadrotor_rviz_urdf_robot_description" command="$(find xacro)/xacro --inorder '/home/ubuntu/MAPR_projekt_catkin/src/projekt_4/urdf/xpp_quadrotor/urdf/quadrotor.urdf'"/>
+   
+  <!-- Start tf visualizer  --> 
+  <node name="visualizer_quadrotor" pkg="projekt_4" type="visualizer_quadrotor" output="screen"/>
+
+   
+</launch>

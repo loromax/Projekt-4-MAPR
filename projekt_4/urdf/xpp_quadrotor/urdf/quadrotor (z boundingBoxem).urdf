@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<!-- adapted from Daniel Mellinger, Nathan Michael, Vijay Kumar, 
+"Trajectory Generation and Control for Precise Aggressive Maneuvers with Quadrotors" -->
+
+<robot name="quadrotor">
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+
+  <material name="white">
+    <color rgba="1 1 1 1"/>
+  </material>
+
+  <link name="base">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+
+      <geometry>
+
+        <mesh filename="package://projekt_4/urdf/xpp_quadrotor/mesh/quadrotor_base.dae" scale=".1 .1 .1"/>
+<box size="0.4 0.4 0.5" />
+      </geometry>
+      <material name="blue"/>
+    </visual>   
+  </link>
+
+	<!-- prostopadloscian symbolizujacy kolizje -->
+	  <link name="base_col">
+	    <visual>
+	      <origin rpy="0 0 0" xyz="0 0 0"/>
+		<geometry>
+		<box size="0.55 0.55 0.3" />
+		</geometry>
+	    </visual>   
+	  </link>
+	<!-- Joint do drona i prostopadloscianu -->
+	  <joint name="base_joint" type="fixed">
+	    <parent link="base"/>
+	    <child link="base_col"/>
+	  </joint>
+
+</robot>
+

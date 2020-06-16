@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<launch>
+
+  <!-- Launch rviz with specific configuration -->
+  <node name="rviz_xpp" pkg="rviz" type="rviz"  args="-d $(find projekt_4)/rviz/xpp_quadrotor.rviz">
+  </node>
+
+  <!-- Launch the quadruped visualizer -->
+  <include file="$(find projekt_4)/quadrotor/launch/quadrotor.launch"></include>
+
+  <!-- Podlaczenie node'a wyswietlajacego mape -->
+  <node name="publikuj_mape" pkg="projekt_4" type="publikuj_mape" output="screen"/>
+
+
+  <!-- Plan path, generate bag and publish  --> 
+  <node name="quadrotor_bag_builder_2" pkg="projekt_4" type="quadrotor_bag_builder_2" output="screen"/>
+
+</launch>
+
+   
+
+
+
+  
+
+
+  
