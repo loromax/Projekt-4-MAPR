@@ -3,12 +3,12 @@
 ## STRUKTURA PROJEKTU:<br/><br/>
 
 ### Skrypt odczytujący mapę z pliku .bt, publikujący ją i wyświetlający markery<br/>
-/projekt_4/src/publikuj_mape.cpp<br/><br/>
+/projekt_4/src/publikuj_mape.cpp<br/>
 
 ### Odczytywana mapa:<br/><br/>
 /projekt_4/maps/fr_078_tidyup.bt  
 
-### Sterowanie dronem i planowanie ruchu:<br/><br/>
+### Sterowanie dronem i planowanie ruchu:<br/>
 /projekt_4/src/exe/quadrotor_bag_builder_2.cpp  
 
 ### Model URDF drona: <br/><br/>
