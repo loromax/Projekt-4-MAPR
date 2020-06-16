@@ -16,10 +16,10 @@
 /projekt_4/urdf/xpp_quadrotor/urdf/quadrotor.urdf  
 
 ## WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/><br/> 
-### Wkleić folder projekt_4 do /catkin/src\ <br/>
+### Wkleić folder projekt_4 do /catkin/src/ <br/>
 cd ..<br/>
 catkin_make<br/>  
-source devel/setup.bash<br/><br/>
+source devel/setup.bash<br/>
 
 ### Uruchamianie projektu <br/>
 roslaunch projekt_4 quadrotor_MOJ.launch<br/>  
