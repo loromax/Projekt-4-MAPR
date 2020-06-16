@@ -1,7 +1,7 @@
 # Projekt-4-MAPR
 
 -------------------------------------------------------------------------
-STRUKTURA PROJEKTU:<br/>
+## STRUKTURA PROJEKTU:<br/>
 
 Skrypt odczytujący mapę z pliku .bt, publikujący ją i wyświetlający markery<br/>
 
@@ -18,7 +18,7 @@ Model URDF drona:<br/>
 
 
 ---------------------------------------------------------------------------\
-WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/> 
+## WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/> 
 <br/>
 Wkleić folder projekt_4 do /catkin/src\<br/>
 cd ..<br/>
