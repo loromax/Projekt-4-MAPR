@@ -12,14 +12,14 @@
 ### Sterowanie dronem i planowanie ruchu:<br/><br/>
 /projekt_4/src/exe/quadrotor_bag_builder_2.cpp  
 
-### Model URDF drona:<br/><br/>
+### Model URDF drona: <br/><br/>
 /projekt_4/urdf/xpp_quadrotor/urdf/quadrotor.urdf  
 
 ## WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/><br/> 
-### Wkleić folder projekt_4 do /catkin/src\<br/>
+### Wkleić folder projekt_4 do /catkin/src\ <br/>
 cd ..<br/>
 catkin_make<br/>  
 source devel/setup.bash<br/><br/>
 
-### Uruchamianie projektu<br/>
+### Uruchamianie projektu <br/>
 roslaunch projekt_4 quadrotor_MOJ.launch<br/>  
