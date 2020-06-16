@@ -1,6 +1,5 @@
 # Projekt-4-MAPR
 
-
 ## STRUKTURA PROJEKTU:<br/><br/>
 
 ### Skrypt odczytujący mapę z pliku .bt, publikujący ją i wyświetlający markery<br/>
@@ -17,9 +16,9 @@
 
 ## WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/><br/> 
 ### Wkleić folder projekt_4 do /catkin/src/ <br/>
-cd ..<br/>
-catkin_make<br/>  
-source devel/setup.bash<br/>
+cd .. <br/>
+catkin_make <br/>  
+source devel/setup.bash <br/>
 
 ### Uruchamianie projektu <br/>
 roslaunch projekt_4 quadrotor_MOJ.launch<br/>  
