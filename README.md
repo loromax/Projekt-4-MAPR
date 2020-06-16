@@ -17,7 +17,7 @@
 ## WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/>
 ### Wkleić folder projekt_4 do /catkin/src/ <br/>
 cd .. <br/>
-catkin_make <br/>  
+catkin_make <br/>
 source devel/setup.bash <br/>
 
 ### Uruchamianie projektu <br/>
