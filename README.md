@@ -1,28 +1,29 @@
 # Projekt-4-MAPR
 
 -------------------------------------------------------------------------
-STRUKTURA PROJEKTU:
+STRUKTURA PROJEKTU:<br/>
 
-Skrypt odczytujący mapę z pliku .bt, publikujący ją i wyświetlający markery
+Skrypt odczytujący mapę z pliku .bt, publikujący ją i wyświetlający markery<br/>
 
-/projekt_4/src/publikuj_mape.cpp
-
-Odczytywana mapa:\
+/projekt_4/src/publikuj_mape.cpp<br/>
+<br/>
+Odczytywana mapa:<br/>
 /projekt_4/maps/fr_078_tidyup.bt  
-
-Sterowanie dronem i planowanie ruchu:\
+<br/>
+Sterowanie dronem i planowanie ruchu:<br/>
 /projekt_4/src/exe/quadrotor_bag_builder_2.cpp  
-
-Mode URDF drona:\
+<br/>
+Model URDF drona:<br/>
 /projekt_4/urdf/xpp_quadrotor/urdf/quadrotor.urdf  
----------------------------------------------------------------------------
 
-WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):  
 
-Wkleić folder projekt_4 do /catkin/src\
-cd ..  
-catkin_make  
-source devel/setup.bash\
-
-#Uruchamianie projektu\
-roslaunch projekt_4 quadrotor_MOJ.launch  
+---------------------------------------------------------------------------\
+WGRYWANIE PROJEKTU DO WORKSPACE CATKIN (Robot Operating System):<br/> 
+<br/>
+Wkleić folder projekt_4 do /catkin/src\<br/>
+cd ..<br/>
+catkin_make<br/>  
+source devel/setup.bash<br/>
+<br/>
+#Uruchamianie projektu<br/>
+roslaunch projekt_4 quadrotor_MOJ.launch<br/>  
